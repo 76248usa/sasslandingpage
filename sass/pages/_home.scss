@@ -1,0 +1,49 @@
+.section-about {
+	background-color: $color-grey-light-1;
+	padding: 25rem 0;
+	margin-top: -20vh;
+}
+
+.section-features {
+	padding: 20rem 0;
+	background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary-light2, 0.7),
+        rgba($color-primary-dark2, 0.7)),  
+        url(../img/copy1.jpg);
+    background-size: cover;
+    transform: skewY(-7deg);
+    margin-top: -10rem;
+
+    & > * {
+    	transform: skewY(7deg);
+    }
+
+  }
+
+   .section-tours {
+   	 background-color: $color-grey-light-1;
+	   padding: 25rem 0 25rem 0;
+	   margin-top: -10rem;
+
+   }
+
+   .section-stories {
+      position: relative;
+      margin-top: -20vh;
+      padding: 15rem 0;
+      
+   }
+
+   .section-book {
+      padding: 15rem 0;
+      background-image: linear-gradient(to right bottom, $color-primary-light2, $color-primary-dark2);
+   }
+
+   .book {
+      background-image: url(../img/nat-10.jpg);
+      background-size: cover;
+      border-radius: 5px;
+      box-shadow: 0 1.5rem 4rem rgba($color-black, .3);
+      height: 40rem;
+   }
